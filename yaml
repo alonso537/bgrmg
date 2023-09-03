@@ -1,0 +1,7 @@
+version: 2
+environments:
+  production:
+    secrets: []
+    commands:
+      - name: Web
+        command: python app.py  # Aquí debes especificar el comando de inicio correcto
