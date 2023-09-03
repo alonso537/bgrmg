@@ -4,4 +4,4 @@ environments:
     secrets: []
     commands:
       - name: Web
-        command: python app.py  # Aquí debes especificar el comando de inicio correcto
+        command: flask run  # Aquí debes especificar el comando de inicio correcto
